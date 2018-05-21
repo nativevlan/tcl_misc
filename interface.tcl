@@ -18,10 +18,3 @@ action 5.000 info type routername
 action 6.005 cli command "tclsh"
 action 6.010 cli command "source flash:/test.0.0.1.tcl"
 action 8.000 mail server "$mail_server" to "$user@$domain.com" from "$_info_routername@$domain.com" subject "$_info_routername INTERFACE SHUT DOWN" body "$_cli_result \n router name is $var_test"
-
-
-
-
-
-
-
